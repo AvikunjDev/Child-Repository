@@ -1,0 +1,17 @@
+name: Sync Fork
+
+on:
+  push:
+    branches: [ "upstream/main" ]
+
+jobs:
+  sync:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: tgymnich/fork-sync@v1.8
+        with:
+          owner: Avikunj
+          base: main
+          head: main
