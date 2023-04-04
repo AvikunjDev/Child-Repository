@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   push:
-    branches: [ "upstream/main" ]
+    branches: [ "main" ]
 
 jobs:
   sync:
