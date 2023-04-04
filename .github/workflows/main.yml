@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.8
         with:
+          github_token: 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
           owner: Avikunj
           base: main
           head: main
